@@ -32,7 +32,7 @@ namespace Pubinno.API.Controllers
             };
 
             var result = await Mediator.Send(request);
-            return Ok(result);
+            return Ok(result.Data);
         }
     }
 }
