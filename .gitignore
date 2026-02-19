@@ -1,0 +1,36 @@
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# NuGet packages
+packages/
+*.nupkg
+.nuget/
+
+# Visual Studio
+.vs/
+*.vspx
+*.sap
+
+# ASP.NET
+wwwroot/
+
+# Environment & secrets
+appsettings.json
+appsettings.*.json
+!appsettings.Example.json
+
+# dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db

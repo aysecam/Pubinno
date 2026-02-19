@@ -1,0 +1,6 @@
+@Pubinno.API_HostAddress = http://localhost:5119
+
+GET {{Pubinno.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
